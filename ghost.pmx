@@ -1,0 +1,19 @@
+---
+name: ghost
+description: ''
+keywords: ''
+type: NodeJS
+documentation: ''
+images:
+- name: nginx_latest
+  source: nginx:latest
+  category: proxy
+  type: Default
+- name: ghost
+  source: ghost:latest
+  category: app
+  type: Default
+- name: centurylink_ngrok
+  source: centurylink/ngrok:latest
+  category: proxy
+  type: Default
